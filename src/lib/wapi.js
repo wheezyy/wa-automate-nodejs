@@ -90,7 +90,7 @@ if (!window.Store||!window.Store.Msg) {
         const parasite = `parasite${Date.now()}`
         // webpackJsonp([], { [parasite]: (x, y, z) => getStore(z) }, [parasite]);
         if (typeof webpackJsonp === 'function') webpackJsonp([], {[parasite]: (x, y, z) => getStore(z)}, [parasite]); 
-        else webpackChunkbuild.push([[parasite], {}, function (o, e, t) {let modules = []; for (let idx in o.m) {modules.push(o(idx));}	getStore(modules);}]);        
+        else webpackChunkwhatsapp_web_client.push([[parasite], {}, function (o, e, t) {let modules = []; for (let idx in o.m) {modules.push(o(idx));}	getStore(modules);}]);        
     })();
 }
 
